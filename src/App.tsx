@@ -1,6 +1,6 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
-import AboutMe from "./components/aboutMe";
+import AboutMe from "./components/AboutMe";
 // import SideNavBar from "./components/SideNavBar";
 import MyAbilities from "./components/MyAbilities";
 import Footer from "./components/Footer";
