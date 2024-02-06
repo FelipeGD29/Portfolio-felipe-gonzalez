@@ -31,7 +31,7 @@ const Footer = () => {
           </svg>
           <p>github.com/FelipeGD29</p>
         </a>
-        <a>
+        <a className="flex items-center gap-2">
           <svg
             width="24"
             height="24"

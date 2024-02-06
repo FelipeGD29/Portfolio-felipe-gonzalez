@@ -1,6 +1,6 @@
 const MyAbilities = () => {
   return (
-    <section className="m-10">
+    <section className="m-20">
       <h2 className="text-2xl text-right">Mis Conocimientos</h2>
       <div className="flex mt-5">
         <div className="grid grid-cols-3 gap-2 w-1/2">
