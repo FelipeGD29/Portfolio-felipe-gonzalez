@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="sticky flex justify-center w-full h-[200px] bg-teal-800">
+    <footer id="footer-section" className="sticky flex justify-center w-full h-[200px] bg-teal-800">
       <div className="py-5 w-1/3 gap-2 grid grid-cols-2 place-content-center place-items-center">
         <a
           href="http://www.linkedin.com/in/felipe-gonzález-delgado-834950212/"
@@ -44,7 +44,7 @@ const Footer = () => {
           <p>gdfeli05@gmail.com</p>
         </a>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Footer;

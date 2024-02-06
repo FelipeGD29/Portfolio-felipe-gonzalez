@@ -2,7 +2,7 @@ import myWorld from "../assets/myWorld.png";
 import myVideo from "../assets/myVideo.webm";
 const MyProyects = () => {
   return (
-    <section id="proyectos-section" className="m-20 flex flex-col gap-5">
+    <section id="myProjects-section" className="m-20 flex flex-col gap-5">
       <h2 className="text-3xl">Mis proyectos</h2>
       <article className="flex gap-5 rounded-2xl border-4 border-teal-800 p-5">
         <a

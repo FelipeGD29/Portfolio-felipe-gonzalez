@@ -1,7 +1,7 @@
 import "./Hero.css";
 const Hero = () => {
   return (
-    <section className="relative overflow-hidden h-screen">
+    <section id="hero-section" className="relative overflow-hidden h-screen">
       <div className="semicirculo absolute -right-[100%] bottom-[20%] -z-10 bg-teal-800 h-[400vw] w-[300vw] rounded-[50%]"></div>
       <article className="flex items-center justify-center rounded-xl z-10 h-[60vh] w-full">
         <div className="flex flex-col items-center text-5xl justify-center w-1/2">

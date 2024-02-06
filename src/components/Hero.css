@@ -1,9 +1,10 @@
-@keyframes fadeIn {
+/* @keyframes fadeIn {
+  
   from {
     opacity: 0;
     bottom: 50%;
   }
-}
+} */
 .semicirculo {
   animation: fadeIn 2s;
   animation-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);

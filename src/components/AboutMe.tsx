@@ -1,7 +1,7 @@
 import miFoto from "../assets/miFoto.jpeg";
 const AboutMe = () => {
   return (
-    <section className="flex justify-center items-center gap-10 mx-20">
+    <section id="aboutMe-section" className="flex justify-center items-center gap-10 mx-20">
       <img src={miFoto} alt="FelipeGonzalez.jpeg" className="w-1/4 rounded-[50%]" />
       <div className="flex flex-col gap-10">
         <h2 className="text-3xl">Quien soy?</h2>
@@ -24,7 +24,7 @@ const AboutMe = () => {
         </p>
         <p>
           Me considero alguien perseverante, colaborativo y flexible,
-          determinado en las metas y con pensamiento crítico.
+          determinado en las metas y con pensamiento crítico. Y con inglés avanzado <a href="https://www.efset.org/cert/2v3btP" target="_blank" className="text-blue-400">{"(certificado EF Set)"}</a>
         </p>
       </div>
     </section>
