@@ -1,10 +1,35 @@
+import { useEffect, useRef, useState } from 'react';
+
 const Footer = () => {
+  const [isVisible, setIsVisible] = useState(false);
+  const footerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (footerRef.current) {
+        const { top } = footerRef.current.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+        setIsVisible(top < windowHeight+50);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <footer id="footer-section" className="sticky flex justify-center w-full h-[200px] bg-teal-800">
-      <div className="py-5 w-1/3 gap-2 grid grid-cols-2 place-content-center place-items-center">
+    <footer
+      id="footer-section"
+      className={`flex justify-center w-full h-[200px] bg-teal-800 ${isVisible ? 'slide-up' : "opacity-0"}`}
+      ref={footerRef}
+    >
+      <div className="py-5 gap-4 grid grid-cols-2 place-content-center place-items-center">
         <a
           href="http://www.linkedin.com/in/felipe-gonzález-delgado-834950212/"
           className="flex items-center gap-2"
+          target="_blank"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -20,6 +45,7 @@ const Footer = () => {
         <a
           className="flex items-center gap-2"
           href="https://github.com/FelipeGD29"
+          target="_blank"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +57,7 @@ const Footer = () => {
           </svg>
           <p>github.com/FelipeGD29</p>
         </a>
-        <a className="flex items-center gap-2">
+        <a className="flex col-span-2 justify-center items-center gap-5">
           <svg
             width="24"
             height="24"

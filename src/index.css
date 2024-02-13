@@ -8,3 +8,31 @@
   background-color: black;
   color: white;
 }
+.slide-up {
+  animation: slideUp 0.5s ease forwards;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+#myProjects-section article {
+  animation: slideFromLeft linear forwards;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: cover 76vh;
+}
+@keyframes slideFromLeft {
+  from {opacity: 0; transform: translateX(-100%);}
+}
+
+
+

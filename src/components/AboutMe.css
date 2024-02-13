@@ -1,0 +1,30 @@
+.texts span {
+    color: hsl(0 0% 100% / 0.1);
+    background-clip: text;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 100% ;
+    background-repeat: no-repeat;
+    animation: scroll-reveal linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover 10vh;
+    animation-range-end: cover 24vh;
+}
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 100%;
+    }
+}
+.myPhoto {
+    filter: blur(20px);
+    animation: imgBlur linear forwards;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: contain 10vh;
+}
+
+@keyframes imgBlur {
+ to {
+    filter: blur(0px) 
+ }
+}
