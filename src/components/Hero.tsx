@@ -6,11 +6,11 @@ const Hero: React.FC<reactFcWithSmoothScrollFunction> = ({smoothScroll}) => {
       <div className="semicirculo absolute -right-[100%] bottom-[20%] -z-20 bg-teal-800 h-[400vw] w-[300vw] rounded-[50%]">
       </div>
       <article className="flex flex-col items-center justify-center rounded-xl z-10 h-[60vh] w-full">
-        <div className="flex flex-col items-center text-5xl justify-center w-1/2">
+        <div className="flex flex-col items-center text-5xl justify-center 2xl:w-1/2 xl:w-1/2 lg:w-1/2 md:w-full sm:w-full">
           <h1 className="my-28">
             <span>
               Hola, soy{" "}
-              <span className="font-bold text-clip">Felipe Gonzalez</span>
+              <span className="text-purple-400 font-bold text-clip">Felipe Gonzalez</span>
               <br />
               {"< "}
               FullStack Developer

@@ -5,13 +5,13 @@ const MyProyects = () => {
   return (
     <section
       id="myProjects-section"
-      className="m-20 flex flex-col gap-36"
+      className="2xl:m-20 xl:m-20 lg:m-10 md:m-5 flex flex-col 2xl:gap-36 xl:gap-30 lg:gap-20 md:gap-5"
     >
-      <h2 className="text-3xl -mb-16">Mis proyectos</h2>
-      <article className="flex gap-5 rounded-2xl border-4 border-teal-800 p-5">
+      <h2 className="text-purple-500 text-3xl 2xl:-mb-16 md:mb-5">Mis proyectos</h2>
+      <article className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-5 rounded-2xl border-4 border-teal-800 p-5">
         <a
           href="https://myworld-72wn.onrender.com"
-          className="relative group w-1/2"
+          className="relative group w-1/2 md:w-full sm:w-full"
           target="_blank"
         >
           <img
@@ -23,7 +23,7 @@ const MyProyects = () => {
             My World
           </span>
         </a>
-        <div className="w-1/2">
+        <div className="w-1/2 md:w-full sm:w-full">
           <a
             href="https://myworld-72wn.onrender.com"
             className="text-2xl underline hover:text-teal-800 transition-colors duration-500"
@@ -56,7 +56,7 @@ const MyProyects = () => {
         </div>
       </article>
 
-      <article className="flex gap-5 rounded-2xl border-4 border-teal-800 p-5">
+      <article className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse gap-5 rounded-2xl border-4 border-teal-800 p-5">
         <div>
           <h2 className="text-2xl underline hover:text-teal-800 transition-colors duration-500">
             Rick and Morty project
@@ -80,7 +80,7 @@ const MyProyects = () => {
         <video
           src={myVideo}
           controls
-          className="w-1/2 rounded-2xl"
+          className="2xl:w-1/2 xl:w-1/2 lg:w-1/2 rounded-2xl"
         />
       </article>
     </section>

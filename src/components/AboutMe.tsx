@@ -2,9 +2,9 @@ import miFoto from "../assets/miFoto.jpeg";
 import "./AboutMe.css"
 const AboutMe = () => {
   return (
-    <section id="aboutMe-section" className="flex justify-center items-center gap-10 mx-20 mb-20 h-screen">
+    <section id="aboutMe-section" className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse justify-center items-center 2xl:gap-10 xl:gap-10 lg:gap-5 md:gap-0 mx-20 md:mx-10 sm:mx-5 mb-20 h-screen">
       <img src={miFoto} alt="FelipeGonzalez.jpeg" className="myPhoto w-1/4 rounded-[50%]" />
-      <div className="texts flex flex-col gap-10">
+      <div className="texts flex flex-col gap-5">
           <h2 className="text-3xl"><span>Quien soy?</span></h2>
         <p className="firstParragraph">
           <span>

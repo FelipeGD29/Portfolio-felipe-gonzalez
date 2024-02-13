@@ -9,18 +9,25 @@
     animation-range-start: cover 10vh;
     animation-range-end: cover 24vh;
 }
+.texts h2 span {
+    background-image: linear-gradient(rgb(168 85 247), rgb(168 85 247));
+}
 
 @keyframes scroll-reveal {
     to {
         background-size: 100% 100%;
     }
 }
-.myPhoto {
-    filter: blur(20px);
-    animation: imgBlur linear forwards;
-    animation-timeline: view();
-    animation-range-start: cover;
-    animation-range-end: contain 10vh;
+
+@media (min-width: 769px) {
+
+    .myPhoto {
+        filter: blur(20px);
+        animation: imgBlur linear forwards;
+        animation-timeline: view();
+        animation-range-start: cover;
+        animation-range-end: contain 10vh;
+    }
 }
 
 @keyframes imgBlur {

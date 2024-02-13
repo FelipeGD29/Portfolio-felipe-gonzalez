@@ -37,7 +37,7 @@ const NavBar: React.FC<reactFcWithSmoothScrollFunction> = ({
     <nav
       className={`${
         activeLink === "hero-section" && "opacity-0"
-      }  ease-in-out transition-opacity duration-500 fixed z-20 font-bold text-xl top-0 right-20 h-[10vh] w-[91.5%] flex justify-around items-center gap-5 border-2 border-t-0 border-teal-800 rounded-3xl rounded-t-none bg-black bg-opacity-60 backdrop-blur-sm`}
+      } md:text-base sm:text-base ease-in-out transition-opacity duration-500 fixed z-20 font-bold text-xl top-0 2xl:right-20 md:right-0 sm:right-0 h-[10vh] 2xl:w-[91.5%] md:w-full sm:w-full flex justify-around items-center gap-5 border-2 border-t-0 border-teal-800 rounded-3xl rounded-t-none bg-black bg-opacity-60 backdrop-blur-sm`}
     >
       <button
         onClick={() => smoothScroll("hero-section", 1000)}
