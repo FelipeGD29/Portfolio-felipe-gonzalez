@@ -3,7 +3,7 @@ import "./AboutMe.css"
 const AboutMe = () => {
   return (
     <section id="aboutMe-section" className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse justify-center items-center 2xl:gap-10 xl:gap-10 lg:gap-5 md:gap-0 mx-20 md:mx-10 sm:mx-5 mb-20 h-screen">
-      <img src={miFoto} alt="FelipeGonzalez.jpeg" className="myPhoto w-1/4 rounded-[50%]" />
+      <img src={miFoto} alt="FelipeGonzalez.jpeg" className="ring-offset-purple myPhoto w-1/4 rounded-[50%] sm:hidden" />
       <div className="texts flex flex-col gap-5">
           <h2 className="text-3xl"><span>Quien soy?</span></h2>
         <p className="firstParragraph">
@@ -30,7 +30,7 @@ const AboutMe = () => {
         <p>
           <span>
             Me considero alguien perseverante, colaborativo y flexible,
-            determinado en las metas y con pensamiento crítico. Y con inglés avanzado <a href="https://www.efset.org/cert/2v3btP" target="_blank" className="text-blue-400">{"(certificado EF Set)"}</a>
+            determinado en las metas y con pensamiento crítico. Y con inglés avanzado <a href="https://www.efset.org/cert/2v3btP" target="_blank" className="text-red">{"(certificado EF Set)"}</a>
           </span>
         </p>
       </div>

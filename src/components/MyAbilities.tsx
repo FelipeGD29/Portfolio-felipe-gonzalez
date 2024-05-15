@@ -1,7 +1,7 @@
 const MyAbilities = () => {
   return (
-    <section id="myAbilities-section" className="m-20 pt-44">
-      <h2 className="text-purple-500 text-3xl text-right">Mis Conocimientos</h2>
+    <section id="myAbilities-section" className="m-20 sm:mx-5 pt-44">
+      <h2 className="myHeader text-purple-500 text-3xl text-right">Mis Conocimientos</h2>
       <div className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col md:gap-5 sm:gap-5 mt-5">
         <div className="grid grid-cols-3 gap-2 w-1/2 md:w-full sm:w-full">
           <img

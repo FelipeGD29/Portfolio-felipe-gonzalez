@@ -34,5 +34,21 @@
   from {opacity: 0; transform: translateX(-100%);}
 }
 
+svg {
+  fill: #fefefe;
+  transition: fill 0.3s ease;
+}
 
+svg:hover {
+  fill: #a855f7;
+}
 
+.myHeader {
+  color: hsl(0 0% 100% / 0.1);
+  background-clip: text;
+  background-image: linear-gradient(rgb(168 85 247), #B30000);
+}
+
+article, .navBar, footer {
+  box-shadow:  0 0 20px rgb(168 85 247);
+}

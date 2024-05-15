@@ -22,7 +22,7 @@ const Footer = () => {
   return (
     <footer
       id="footer-section"
-      className={`flex justify-center w-full h-[200px] bg-teal-800 ${isVisible ? 'slide-up' : "opacity-0"}`}
+      className={`bg-gradient-to-tl from-red to-purple flex justify-center w-full h-[200px] ${isVisible ? 'slide-up' : "opacity-0"}`}
       ref={footerRef}
     >
       <div className="py-5 gap-4 grid grid-cols-2 place-content-center place-items-center">

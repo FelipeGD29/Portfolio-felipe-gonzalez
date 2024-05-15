@@ -5,10 +5,10 @@ const MyProyects = () => {
   return (
     <section
       id="myProjects-section"
-      className="2xl:m-20 xl:m-20 lg:m-10 md:m-5 flex flex-col 2xl:gap-36 xl:gap-30 lg:gap-20 md:gap-5"
+      className="2xl:m-20 xl:m-20 lg:m-10 md:m-5 sm:my-60 sm:mb-5 flex flex-col 2xl:gap-36 xl:gap-30 lg:gap-20 md:gap-5"
     >
-      <h2 className="text-purple-500 text-3xl 2xl:-mb-16 xl:-mb-16 lg:-mb-16 md:mb-5 sm:mb-5">Mis proyectos</h2>
-      <article className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-5 rounded-2xl border-4 border-teal-800 p-5">
+      <h2 className="myHeader text-3xl 2xl:-mb-14 xl:-mb-16 lg:-mb-16 md:mb-5 sm:mb-5">Mis proyectos</h2>
+      <article className="bg-gradient-to-b from-red to-purple flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col gap-5 rounded-2xl border-4 p-5">
         <a
           href="https://myworld-72wn.onrender.com"
           className="relative group w-1/2 md:w-full sm:w-full"
@@ -26,7 +26,7 @@ const MyProyects = () => {
         <div className="w-1/2 md:w-full sm:w-full">
           <a
             href="https://myworld-72wn.onrender.com"
-            className="text-2xl underline hover:text-teal-800 transition-colors duration-500"
+            className="text-2xl underline text-black hover:text-purple transition-colors duration-500"
           >
             My World
           </a>
@@ -56,9 +56,9 @@ const MyProyects = () => {
         </div>
       </article>
 
-      <article className="flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse gap-5 rounded-2xl border-4 border-teal-800 p-5">
+      <article className="bg-gradient-to-b from-red to-purple flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col-reverse sm:flex-col-reverse gap-5 rounded-2xl border-4 p-5">
         <div>
-          <h2 className="text-2xl underline hover:text-teal-800 transition-colors duration-500">
+          <h2 className="text-2xl underline text-black hover:text-purple transition-colors duration-500">
             Rick and Morty project
           </h2>
           <p>

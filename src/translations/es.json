@@ -1,0 +1,13 @@
+{
+    "hello": "Hola, soy",
+    "whoT": "Quién soy?",
+    "whoB1": "Soy un desarrollador FullStack con experiencia en Javascript, Typescript, Tailwind, React, Redux y Sequalize. He participado en proyectos que destacan por interfaces intuitivas, gestión de estado global, integración de API y manejo de bases de datos, brindando una sólida base en las últimas tecnologías web.",
+    "whoB2": "Actualmente, me encuentro en una pasantía en Awaq ONGD, donde estoy contribuyendo al desarrollo de su futuro sitio web. En este proyecto, hemos adoptado metodologías Agile y Scrum para organizar efectivamente nuestro trabajo en equipo, permitiendo una planificación iterativa, entregas frecuentes y rápida adaptación a los cambios, optimizando la eficiencia y la calidad del producto final. Mi enfoque ha estado en crear páginas de inicio y un panel funcional para el administrador del sitio.",
+    "whoB3": "Me considero alguien perseverante, colaborativo y flexible,determinado en las metas y con pensamiento crítico. Y con inglés avanzado",
+    "ESCertificate": "(certificado EF Set)",
+    "projT": "Mis proyectos",
+    "myWorldB1": "Mi proyecto individual: una aplicación de países que ofrece información de 250 destinos, y podremos crear actividades para estos.",
+    "myWorldB2": "Al ingresar, la página de bienvenida nos guía a la principal, donde encontramos tarjetas de todos los países. Al hacer clic, obtenemos datos clave como ID, bandera, continente, capital, subregión, área y población. Próximamente, las actividades creadas se mostrarán aquí.",
+    "myWorldB3": "De vuelta a la página principal, encontramos filtros permiten ordenar países alfabéticamente, por población o continente, utilizables simultáneamente. En la sección de actividades, creamos y  gestionamos nuestras propias actividades, ingresando detalles como nombre, dificultad, duración, países involucrados y temporada.",
+    "myWorldB4": "La aplicación verifica la precisión de la información antes de crear la actividad. Una vez creada, se muestra claramente y se integra en la carta del país correspondiente."
+}

@@ -1,7 +1,6 @@
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
-// import SideNavBar from "./components/SideNavBar";
 import MyAbilities from "./components/MyAbilities";
 import Footer from "./components/Footer";
 import MyProyects from "./components/MyProjects";
@@ -16,7 +15,7 @@ const smoothScroll = (id: string, offset: number = 0, duration: number = 2000) =
     const animateScroll = (currentTime: number) => {
       const elapsedTime = currentTime - startTime;
       const scrollProgress = Math.min(elapsedTime / duration, 1);
-      const easing = (t: number) => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t; // Función de easing
+      const easing = (t: number) => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
 
       window.scrollTo(0, start + distance * easing(scrollProgress));
 
@@ -33,7 +32,6 @@ const App = (): JSX.Element => {
     
     <main className="font-Comfortaa font-normal text-lg">
       <NavBar smoothScroll={smoothScroll} />
-      {/* <SideNavBar/> */}
       <Hero smoothScroll={smoothScroll} />
       <AboutMe/>
       <MyProyects/>
